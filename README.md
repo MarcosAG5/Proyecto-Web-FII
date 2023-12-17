@@ -1,5 +1,6 @@
 # fundamentalsufv.github.io
 PROYECTO SITIO WEB PARA LA ASIGNATURA FUNDAMENTOS DE INGENIERÍA INFORMÁTICA
+
 El proyecto está compuesto por:
 - archivos .html: constituyen las páginas web disponibles en el sitio web (index.html es la página principal)
 - archivo style.css: incluido en la carpeta CSS, modifica la apariencia del sitio web
