@@ -18,6 +18,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
+/*Aplica en un principio a todos los párrafos*/
 p {
     text-align: center;
     margin: 8px 45px 8px 45px;
@@ -76,6 +81,7 @@ header {
     color: black;
 }
 
+/*Imagen de la página principal*/
 #html-css-image {
     display: block;
     margin: 18px auto 18px auto;
@@ -83,6 +89,7 @@ header {
     height: auto;
 }
 
+/*Imagen Control Ray Tracing*/
 #control-rtx {
     height: 320px;
     width: auto;
@@ -90,6 +97,7 @@ header {
     margin: 20px auto 20px auto;
 }
 
+/*Imagen esquema Ray Tracing*/
 #esquema-rtx {
     height: 300px;
     width: auto;
@@ -107,19 +115,39 @@ header {
     background-color: #b0d1f5; 
 }
 
+/*Texto sobre mi*/
 #sobre-mi-descripcion p {
     text-align: justify;
     margin: 8px 75px 8px 50px;
 }
 
+/*Imagen Marcos sobre mi*/
 #sobre-mi-descripcion img {
     display: flex;
-    width: 280px;
+    width: 410px;
     height: auto;
     margin: 50px 0px 20px 50px;
+    border: 2px solid black;
 }
 
 #sobre-mi-descripcion {
     display: flex;
     align-items: center;
+}
+
+#cv-marcos {
+    width: 600px;
+    height: auto;
+    display: flex;
+    margin: 20px auto 20px auto;
+    border: 2.8px solid black;
+}
+
+#formulario {
+    margin: 40px 20px 20px 40px;
+}
+
+#enlaces-RTX {
+    text-align: center;
+    list-style-type: none;
 }

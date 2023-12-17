@@ -20,15 +20,19 @@
         
         <img src="./images/Control-RTX.jpg" alt="Imagen del videojuego Control en la que destacan los relfejos y la iluminación" id="control-rtx">
 
-        <p>La técnica consiste en lanzar una serie de “rayos” desde la cámara del jugador, a través de cada pixel de la pantalla, a la escena en 3D y luego a las fuentes de luz (lámparas, bombillas, fuego, etc.). Estos rayos dependiendo de con que se crucen durante su recorrido a través de la escena podrán rebotar, frenarse o atravesar los objetos, dependiendo del material por el que esté formado cada uno. Como resultado se crea en la escena una iluminación con un alto nivel de realismo, que incluye reflejos, sombras, sombras indirectas y refracciones.</p>
+        <p>La técnica consiste en lanzar una serie de “rayos” desde la cámara del jugador, a través de cada pixel de la pantalla, a la escena en 3D y luego a las fuentes de luz (lámparas, bombillas, fuego, etc.). Estos rayos dependiendo de con que se crucen durante su recorrido a través de la escena podrán rebotar, frenarse o atravesar los objetos, dependiendo del material por el que esté formado cada uno. Como resultado se crea en la escena una iluminación con un <strong>alto nivel de realismo</strong>, que incluye reflejos, sombras, sombras indirectas y refracciones.</p>
 
         <img src="./images/esquema-ray-tracing.png" alt="Esquema sobre el funcionamiento del ray tracing" id="esquema-rtx">
 
         <p>Este método para calcular la iluminación de una escena provoca que se genere mucho ruido en las imágenes, lo que estropea mucho el resultado, así que como parte del proceso se aplica a los fotogramas un sistema de reducción del ruido que da como resultado los fotogramas finales. 
-        Incluso utilizando recursos dedicados únicamente al funcionamiento de este método de iluminación, como pueden ser los RT Cores de las gráficas de Nvidia, la demanda de potencia es demasiado alta para que el videojuego se ejecute con fluidez. Por ello este proceso no se realiza con todas y cada una de las fuentes de luz de la escena, sino solo en las zonas con mayor prioridad para la escena, intentando así reducir la potencia de computación necesaria. Y aun así se consiguen resultados muy llamativos.</p>
+        Incluso utilizando recursos dedicados únicamente al funcionamiento de este método de iluminación, como pueden ser los RT Cores de las gráficas de Nvidia, la <strong>demanda de potencia</strong> es <strong>demasiado alta</strong> para que el videojuego se ejecute con fluidez. Por ello este proceso no se realiza con todas y cada una de las fuentes de luz de la escena, sino solo en las zonas con mayor prioridad para la escena, intentando así reducir la potencia de computación necesaria. Y aun así se consiguen resultados muy llamativos.</p>
 
-
-        <a href="https://www.youtube.com/watch?v=tbsudki8Sro">Vídeo de Nate Gentile sobre el Ray Tracing</a>
+        <h3>Enlaces de interés:</h3>
+        <ul id="enlaces-RTX">
+            <li><a href="https://www.youtube.com/watch?v=tbsudki8Sro">Vídeo de Nate Gentile sobre el Ray Tracing</a></li>
+            <li><a href="https://developer.nvidia.com/discover/ray-tracing#:~:text=Ray%20tracing%20is%20a%20rendering,%2C%20shadows%2C%20and%20indirect%20lighting">Artículo para desarrolladores sobre el Ray Tracing</a></li>
+        </ul>
+        
 
         <!--Final de página-->
         <footer>
