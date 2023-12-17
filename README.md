@@ -1,4 +1,4 @@
-# fundamentalsufv.github.io
+# Proyecto-Web-FII.github.io
 PROYECTO SITIO WEB PARA LA ASIGNATURA FUNDAMENTOS DE INGENIERÍA INFORMÁTICA
 
 El proyecto está compuesto por:
