@@ -72,10 +72,6 @@ header {
     background-color:rgb(220, 218, 218);
 }
 
-#navegador li:hover{
-    /*transform: scale(1.08);*/
-}
-
 #texto_incial {
     font-size: 17.5px;
     color: black;
