@@ -1,4 +1,4 @@
-# Proyecto-Web-FII.github.io
+# Proyecto-Web-FII
 PROYECTO SITIO WEB PARA LA ASIGNATURA FUNDAMENTOS DE INGENIERÍA INFORMÁTICA
 
 El proyecto está compuesto por:
