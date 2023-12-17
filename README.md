@@ -1,5 +1,6 @@
-Proyecto-Web-FII
+# Proyecto-Web-FII
 PROYECTO SITIO WEB PARA LA ASIGNATURA FUNDAMENTOS DE INGENIERÍA INFORMÁTICA
+Marcos Alonso García 1C
 
 El proyecto está compuesto por:
 - archivos .html: constituyen las páginas web disponibles en el sitio web (index.html es la página principal)
